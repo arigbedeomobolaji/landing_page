@@ -1,0 +1,12 @@
+//Tablets and Mobile Size
+@media (max-width: 800px) {
+  #showcase .btn {
+    font-size: 1rem;
+  }
+  #tabs-content .tab-content-2 .btn-l,
+  #tabs-content .tab-content-1 .btn-primary {
+    font-size: 0.5rem;
+    padding: 0;
+    width: auto;
+  }
+}

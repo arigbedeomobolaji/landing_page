@@ -1,0 +1,14 @@
+$primary-color: #ce1919;
+$dark-color: #000;
+$dark-grey-color: #111;
+$light-color: #f4f4f4;
+$font-stack: "Exo", Arial, Helvetica, sans-serif;
+$screen-width: 1100px;
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50%) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
